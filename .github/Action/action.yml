@@ -1,0 +1,7 @@
+name: My Coding Dojos Action
+author: Prasanta
+description: Demo Coding Dojos Action
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
