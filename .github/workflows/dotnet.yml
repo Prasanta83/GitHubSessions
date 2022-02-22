@@ -24,3 +24,10 @@ jobs:
       #run: dotnet build --no-restore
     - name: Publish
       run: dotnet publish 
+    - name: Upload Coding Dojos Build Artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: CodingDojos
+        path: /home/runner/work/GitHubSessions/GitHubSessions/GitHubsessions/bin/Debug/net5.0/publish/
+    - name: Test
+      run: dotnet test --no-build --verbosity normal
