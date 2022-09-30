@@ -1,4 +1,4 @@
-name: BUild for Architect Demo
+name: Build for Architect Demo
 
 on:
   push:
