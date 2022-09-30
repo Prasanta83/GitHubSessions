@@ -1,4 +1,4 @@
-name: .NET
+name: BUild for Architect Demo
 
 on:
   push:
